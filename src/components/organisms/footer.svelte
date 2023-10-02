@@ -17,6 +17,7 @@
 		position: fixed;
 		bottom: 0;
 		background-color: $background-color;
+		opacity: 75%;
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;

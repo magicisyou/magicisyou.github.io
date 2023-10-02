@@ -33,7 +33,7 @@
 		{
 			name: 'Color Game',
 			description: 'A web game',
-			src: `${gh_base_link}color-game`
+			src: `${gh_base_link}colorgame`
 		},
 		{
 			name: 'Game 2048',

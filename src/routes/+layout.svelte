@@ -53,7 +53,7 @@
 		font-size: 2rem;
 		text-transform: uppercase;
 		padding: 1em 0 0.5em;
-		color: $highlight-color;
+		color: $color;
 	}
 
 	:global(h2) {
