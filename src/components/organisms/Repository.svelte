@@ -15,6 +15,9 @@
 	a {
 		color: #276b96;
 		text-decoration: none;
+		&:hover {
+			color: #377ba6;
+		}
 	}
 	div {
 		display: flex;

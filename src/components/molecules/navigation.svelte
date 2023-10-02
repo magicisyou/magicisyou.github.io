@@ -35,11 +35,10 @@
 					text-transform: uppercase;
 					text-decoration: none;
 					text-align: center;
+					transition: color 0.5s;
 
-					&:hover,
-					&:focus {
-						background-color: $color;
-						color: $background-color;
+					&:hover {
+						color: #f6f6f6;
 					}
 				}
 			}

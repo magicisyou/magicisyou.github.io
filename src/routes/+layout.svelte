@@ -76,6 +76,7 @@
 
 	:global(p) {
 		padding: 1em 0 0.5em;
+		color: #f6f6f6;
 	}
 
 	:global(.mark) {
