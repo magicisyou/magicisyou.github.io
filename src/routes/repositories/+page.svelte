@@ -3,6 +3,11 @@
 	const gh_base_link = 'https://github.com/youaremagic/';
 	const repos = [
 		{
+			name: 'Sudoku',
+			description: 'Sudoku built with svelte and tauri',
+			src: `${gh_base_link}sudoku`
+		},
+		{
 			name: 'Termux Theme Changer',
 			description: 'A shell script to change the theme of termux app',
 			src: `${gh_base_link}termux-theme-changer`

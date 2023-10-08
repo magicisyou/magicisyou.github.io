@@ -24,7 +24,7 @@
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 20px;
-		background-color: #102931;
+		background: linear-gradient(to right, #102931, #223322);
 		padding: 30px;
 		border-radius: 5px;
 	}
