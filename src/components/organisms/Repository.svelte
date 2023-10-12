@@ -13,10 +13,10 @@
 <style lang="scss" scoped>
 	@import '../../styles/variables.scss';
 	a {
-		color: #276b96;
+		color: #6089ff;
 		text-decoration: none;
 		&:hover {
-			color: #377ba6;
+			color: #4069df;
 		}
 	}
 	div {
@@ -24,7 +24,7 @@
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 20px;
-		background: linear-gradient(to right, #102931, #223322);
+		background-color: $box-color;
 		padding: 30px;
 		border-radius: 5px;
 	}
