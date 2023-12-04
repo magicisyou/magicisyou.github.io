@@ -2,18 +2,18 @@
 	export let name = 'Name';
 	export let description = 'Description';
 	export let src = '';
-	export let image_url='';
+	export let image_url = '';
 </script>
 
-<div class=main_div>
-	<div class=details_div>
+<div class="main_div">
+	<div class="details_div">
 		<h3>{name}</h3>
 		<p>{description}</p>
 		<a href={src} target="_blank">See github repository</a>
 	</div>
-	<div class=image_container>
+	<div class="image_container">
 		{#if image_url != ''}
-			<img src={image_url} alt={name}>
+			<img src={image_url} alt={name} />
 		{/if}
 	</div>
 </div>
@@ -42,29 +42,29 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		width:70%;
+		width: 70%;
 	}
 	.image_container {
-		width:25%;
-		height:90%;
+		width: 25%;
+		height: 90%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 	img {
-		width:100%;
-		height:auto;
+		width: 100%;
+		height: auto;
 		max-height: 100%;
 	}
-	@media(max-width:650px) {
+	@media (max-width: 650px) {
 		.main_div {
 			flex-direction: column;
-			height:auto;
-			gap:20px;
+			height: auto;
+			gap: 20px;
 		}
 		.image_container {
-			width:100%;
-			height:auto;
+			width: 100%;
+			height: auto;
 		}
 	}
 </style>
