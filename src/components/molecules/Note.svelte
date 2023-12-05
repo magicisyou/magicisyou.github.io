@@ -16,5 +16,6 @@
 		padding: $padding;
 		background-color: $box-color;
 		border-radius: 5px;
+		text-align: justify;
 	}
 </style>

@@ -5,7 +5,7 @@
 <footer>
 	<ul>
 		<li>
-			<GraphicLink src="/github.svg" url="https://github.com/youaremagic" alt="github" />
+			<GraphicLink src="/github.svg" url="https://github.com/magicisyou" alt="github" />
 		</li>
 	</ul>
 </footer>

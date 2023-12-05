@@ -66,5 +66,8 @@
 			width: 100%;
 			height: auto;
 		}
+		.details_div {
+			width: 100%;
+		}
 	}
 </style>
