@@ -16,6 +16,18 @@
 			image_url: `${gh_image_base}easy-markdown/main/docs/screenshot1.webp`
 		},
 		{
+			name: 'Quick List',
+			description: 'To do list app built with tauri',
+			src: `${gh_base_link}quicklist`,
+			image_url: `${gh_image_base}quicklist/main/docs/screenshot.webp`
+		},
+		{
+			name: 'Fsearch',
+			description: 'File content search tool',
+			src: `${gh_base_link}fsearch`,
+			image_url: `${gh_image_base}fsearch/main/docs/screenshot.webp`
+		},
+		{
 			name: 'Termux Theme Changer',
 			description: 'A shell script to change the theme of termux app',
 			src: `${gh_base_link}termux-theme-changer`
