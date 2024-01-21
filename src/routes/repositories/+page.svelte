@@ -16,6 +16,12 @@
 			image_url: `${gh_image_base}easy-markdown/main/docs/screenshot1.webp`
 		},
 		{
+			name: 'Myreads',
+			description: 'Keep track of your books',
+			src: `${gh_base_link}myreads`,
+			image_url: `${gh_image_base}myreads/main/docs/screenshot.webp`
+		},
+		{
 			name: 'Quick List',
 			description: 'To do list app built with tauri',
 			src: `${gh_base_link}quicklist`,
